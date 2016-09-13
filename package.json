@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "package": "asar pack MyApp-darwin-x64/MyApp.app/Contents/Resources/app MyApp-darwin-x64/MyApp.app/Contents/Resources/app.asar",
-    "build": "electron-packager . MyApp --ignore=node_modules/electron-* && cp main.png.icns MyApp-darwin-x64/MyApp.app/Contents/Resources/electron.icns"
+    "build": "electron-packager . MyApp --all--ignore=node_modules/electron-* && cp main.png.icns MyApp-darwin-x64/MyApp.app/Contents/Resources/electron.icns"
   },
   "author": "",
   "license": "ISC",

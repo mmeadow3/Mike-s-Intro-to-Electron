@@ -35,3 +35,6 @@
 ```"package": "asar pack MyApp-darwin-x64/MyApp.app/Contents/Resources/app MyApp-darwin-x64/MyApp.app/Contents/Resources/app.asar",
 ```
 4. npm run package
+
+
+# Always have to delete and rebuild using npm run build
