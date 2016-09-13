@@ -15,9 +15,12 @@
 
 ## "Attempting to be able to deploy"
 1. npm install electron-packager --save-dev
-2. add "build": "electron-packager . MyApp" to scripts in json, then "npm run build"
+2. add
+```
+"build": "electron-packager . MyApp" to scripts in json, then "npm run build"
+```
  2. this will create a folder named "MyApp-darwin-x64"
-3. in command line run "open ."  --- This will take you to a clickable app in finder
+3. in command line run "open ."  <-- This will take you to a clickable app in finder
 
 ## Want to change that boring icon?
 1. find a suitable .icns image
