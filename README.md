@@ -22,8 +22,9 @@
 ## Want to change that boring icon?
 1. find a suitable .icns image
 2. add this line to your package.json.  main.png.icns is the new image
-```"build": "electron-packager . MyApp && cp main.png.icns MyApp-darwin-x64/MyApp.app/Contents/Resources/electron.icns
-
+```
+"build": "electron-packager . MyApp && cp main.png.icns MyApp-darwin-x64/MyApp.app/Contents/Resources/electron.icns
+```
 ## We need to ignore certain things like node_modules
 1. just add --ignore=filesToIgnore after the name of your app in the json file
 
@@ -31,8 +32,9 @@
 1. npm install asar --save-dev
 2. go to scripts in package.json
 3. add
-```"package": "asar pack MyApp-darwin-x64/MyApp.app/Contents/Resources/app MyApp-darwin-x64/MyApp.app/Contents/Resources/app.asar",
-
+```
+"package": "asar pack MyApp-darwin-x64/MyApp.app/Contents/Resources/app MyApp-darwin-x64/MyApp.app/Contents/Resources/app.asar",
+```
 4. npm run package
 
 
