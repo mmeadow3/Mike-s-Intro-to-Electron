@@ -14,7 +14,7 @@
 [Go get Some Photon!](http://photonkit.com/)
 
 ## "Attempting to be able to deploy"
-1. npm install electron-packager --save-dev
+1. ```npm install electron-packager --save-dev```
 2. add
 ```
 "build": "electron-packager . MyApp" to scripts in json, then "npm run build"
